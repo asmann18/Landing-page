@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.market{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    width: 100%;
+    height: 60px;
+    background-color: #262626;
+}
+.nour{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: white;   
+    padding: 0px 100px;
+}
+.nour_head{
+    font-size: 24px;
+}
+.nour_ul{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+.envato {
+    display: flex;
+    color: white;
+    font-size: 22px;
+}
+.envatomarket{
+    color: #81B441;
+}
+.button {
+    padding: 5px 25px;
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    background-color: green;
+}
+.nour_li {
+    list-style-type: none;
+}
+.banner_img{
+    width: 1472px;
+    height: 100vh;
+}
+.banner_img img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.banner_button{
+    padding: 32px;
+    border: none;
+    border-radius: 0.2rem;
+    background-color: #6168FF;
+    position: fixed;
+    top: 250px;
+}
+.first{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+}
+.second{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    font-size: 50px;
+    text-align: center;
+}
+.button_first{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #6168FF;
+    color: #fff;
+}
+.button_first:hover{
+    background: none;
+    border: 1px solid white;
+    color: black;
+    transition: 0,5s;
+    border: black solid 1px;
+}
+.plane_icon{
+    color: rgb(4, 4, 107);
+    margin: 5px;
+}
+.banner_icon{
+    font-size: 30px;
+    position: fixed;
+    top: 265px;
+    left: 15px;
+    color: white;
+    animation-name: Animation;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;    
+}
+@keyframes Animation {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
